@@ -1,0 +1,1 @@
+give @s minecraft:diamond_hoe{boon4681.item.auto_hoe.id:1,boon4681.item.durability:{has:12800,max:12800},boon4681.item.cooldown:{was:0,day:0,time:0}}
