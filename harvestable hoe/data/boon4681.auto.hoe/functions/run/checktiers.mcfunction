@@ -4,6 +4,7 @@ execute unless score @s boon4681.item.id matches 0 if score @s du.cooldown match
 execute unless score @s boon4681.item.id matches 0 if score @s du.cooldown matches 1 run function boon4681.auto.hoe:run/calc_check
 execute unless score @s boon4681.item.id matches 0 if entity @s[nbt={ActiveEffects:[{Id:32b}]}] if score @s du.cooldown matches 0 run function boon4681.auto.hoe:durability/setsave_s2
 execute if score @s du.has matches ..0 run scoreboard players set @s boon4681.item.id 0
+title @s actionbar ["",{"score":{"name":"@s","objective":"du.has"}},{"text":"/"},{"score":{"name":"@s","objective":"du.max"}}]
 execute if score @s boon4681.item.id matches 1 at @s positioned ~ ~ ~ run function boon4681.auto.hoe:break/breaking_1
 execute if score @s boon4681.item.id matches 1 at @s positioned ~ ~0.0625 ~ run function boon4681.auto.hoe:break/breaking_1
 execute if score @s boon4681.item.id matches 2 at @s positioned ~ ~ ~ run function boon4681.auto.hoe:break/breaking_2
