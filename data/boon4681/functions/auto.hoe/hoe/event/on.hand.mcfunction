@@ -1,2 +1,0 @@
-execute store result score @s bn4681.glob.i.id run data get entity @s SelectedItem.tag."boon4681.item".id
-execute if score @s bn4681.glob.i.id matches 40100..40199 run function boon4681:auto.hoe/hoe/tier/check
