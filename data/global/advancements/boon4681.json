@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": "boon4681",
+        "description": [
+            {
+                "text": "Hello world",
+                "color": "green"
+            }
+        ],
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: boon4681}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
