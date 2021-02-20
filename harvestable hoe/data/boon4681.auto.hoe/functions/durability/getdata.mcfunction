@@ -1,2 +1,0 @@
-execute store result score @s du.has run data get entity @s SelectedItem.tag."boon4681.item.durability".has
-execute store result score @s du.max run data get entity @s SelectedItem.tag."boon4681.item.durability".max

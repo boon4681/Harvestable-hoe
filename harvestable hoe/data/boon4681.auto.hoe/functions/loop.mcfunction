@@ -1,1 +1,0 @@
-execute if score "boon4681.auto.hoe.activate" boon4681.active matches 1 run function boon4681.auto.hoe:run/run

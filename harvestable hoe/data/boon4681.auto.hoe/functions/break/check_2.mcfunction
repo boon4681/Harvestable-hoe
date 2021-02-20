@@ -1,2 +1,0 @@
-function boon4681.auto.hoe:break/crop
-execute unless score @s iscrop matches 0 unless block ~ ~ ~ water unless block ~ ~ ~ lava unless block ~ ~ ~ scaffolding run function boon4681.auto.hoe:break/breakit_2

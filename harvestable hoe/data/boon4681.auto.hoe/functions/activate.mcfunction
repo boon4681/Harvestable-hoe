@@ -1,1 +1,0 @@
-scoreboard players set "boon4681.auto.hoe.activate" boon4681.active 1
