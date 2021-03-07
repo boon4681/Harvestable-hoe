@@ -15,4 +15,5 @@ scoreboard objectives add bn4681.glob.i.cd dummy
 scoreboard objectives add bn4681.ahoe.crop dummy
 scoreboard objectives add bn4681.ahoe.bsuc dummy
 
+forceload add 29999977 29999977
 function boon4681:auto.hoe/tick
